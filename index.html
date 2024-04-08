@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="description" content="PQG">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title></title>
+
+  </head>
+  <body>
+    <div class="contacto">
+        <h2>FORMULARIO USUARIO</h2>
+        <form class="formulario" action="/action_page.php" method="get" novalidate>
+              <fieldset>
+                    <legend>DATOS PERSONALES : </legend>
+                    <br>
+                   NOMBRE(S):
+                        <input type="text" name="nombre" id="nombre" placeholder="Tus nombres aquí" autocomplete="on" required>*
+                    <br>
+                    <br>
+                    <label for="apellido"> APELLIDO(S):
+                        <input type="text" name="apellido" id="apellido" placeholder="Tus apellidos aquí" required>*
+   
+   
+   
+                    </label>
+                    <br>
+                    <br>
+
+                    <radiogroup >
+                        <label for="promociones">MARQUE SU SEXO:</label>
+                        <br>
+                        <input type="radio" id="sexo" name="sexo" value="hombre" > Hombre<br>
+                        <input type="radio" id="sexo" name="sexo" value="mujer"> Mujer<br>
+                        <input type="radio" id="sexo" name="sexo" value="otro" autofocus checked> otro<br>
+                    </radiogroup>
+
+                    <br>
+                    <label for="correo"> TU CORREO ELECTRONICO:
+                        <input type="email" name="correo" id="correo" placeholder="tucorreo@dominio.com" validate="false">
+                    </label>
+                    <br>
+                    <br>
+                    <label for="sitioweb">ALGUNA RED SOCIAL:
+                        <input type="url" name="sitioweb" id="sitioweb" value="">
+                    </label>
+                    <br>
+                    <br>
+
+                    <label for="sitioweb">NUMERO DE TELEFONO:
+                        <input type="url" name="sitioweb" id="sitioweb" value="">
+                    </label>
+
+                    <br>
+                    <br>
+                     <label>
+                        FECHA DE NACIMIENTO:
+                        <input type="date" name="fecha" value=""> <br>
+                        <br>
+                    </label>
+
+                   
+
+
+              </fieldset>
+              <br>
+
+              <fieldset>
+                <legend>DATOS ESCOLARES:</legend>
+                <br>
+               NUMERO DE CONTROL:
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu numero de control" autocomplete="on" required>*
+                <br>
+                <br>
+                <label for="carrera">  NOMBRE DE LA CARRERA :
+                    <input type="text" name="apellido" id="apellido" placeholder="tu carrera aqui" required>*
+                </label>
+                <br>
+                <br>
+                <radiogroup >
+                    <label for="promociones">ULTIMO GRADO DE ESTUDIOS:</label>
+                    <br>
+                    <br>
+                    <input type="radio" id="carrera" name="grado" value="licenciatura" > LICENCIATURA<br>
+                    <input type="radio" id="carrera" name="grado" value="maestria"> MAESTRIA<br>
+                    <input type="radio" id="carrera" name="grado" value="doctorado" autofocus checked> DOCTORADO<br>
+                </radiogroup>
+                <br>
+                
+                <label for="estudios"> NOMBRE DEL ULTIMO GRADO DE ESTUDIOS:
+                    <input type="text" name="semestre" id="semestre" placeholder="ultimo grado" required>*
+                </label>
+                <br>
+                <br>
+                
+                <label for="escuela">NOMBRE ESCUELA DE LA CARRERA:
+                    <input type="email" name="correo" id="correo" placeholder="aqui el nombre de escuela " validate="false">
+                </label>
+                <br>
+                <br>
+                <label for="escuela">NOMBRE ESCUELA DEL ULTIMO GRADO DE ESTUDIOS:
+                    <input type="email" name="correo" id="correo" placeholder="ultimo grado " validate="false">
+                </label>
+          </fieldset>
+          <br>
+
+          <fieldset>
+            <legend>PROYECTOS DESARROLLADOS:</legend>
+            <br>
+            AQUI PODRAS ADJUNTAR TUS DOCUMENTOS
+        
+            <br>
+            <br>
+
+            ARCHIVO PDF
+            <br>
+            <input type="file" id="documnenFile" accept="PDF/*" />
+            <br>
+            <br>
+            ARCHIVO MP4
+            <br>
+            <input type="file" id="videoFile" accept="video/*" />
+            <br>
+            <br>
+            ARCHIVO IMAGEN
+            <br>
+            <input type="file" id="imageFile" accept="image/*" />   
+            <br>
+            
+            
+            <label for="sitioweb">Tu Sitio Web:
+                <input type="url" name="sitioweb" id="sitioweb" value="">
+            </label>
+
+            <br><br>
+           
+            <br><br>
+
+            
+
+
+      </fieldset>
